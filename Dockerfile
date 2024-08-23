@@ -32,4 +32,4 @@ RUN poetry config virtualenvs.create false \
 EXPOSE 8501
 
 # Run the application
-CMD ["poetry", "run",  "python", "src/app.py"]
+CMD ["poetry", "run",  "streamlit", "run", "src/app.py"]
